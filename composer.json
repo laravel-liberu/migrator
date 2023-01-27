@@ -1,28 +1,28 @@
 {
-    "name": "laravel-enso/migrator",
+    "name": "cgdsoftware/migrator",
     "description": "Structure Migrator dependency for Laravel Enso",
     "keywords": [
-        "laravel-enso",
+        "cgdsoftware",
         "structures",
         "migrator",
         "enso-helper"
     ],
-    "homepage": "https://github.com/laravel-enso/migrator",
+    "homepage": "https://github.com/cgdsoftware/migrator",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Adrian Ocneanu",
             "email": "aocneanu@gmail.com",
-            "homepage": "https://laravel-enso.com",
+            "homepage": "https://cgdsoftware.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "laravel-enso/core": "^8.0",
-        "laravel-enso/menus": "^5.0",
-        "laravel-enso/permissions": "^5.0",
-        "laravel-enso/roles": "^5.0"
+        "cgdsoftware/core": "^8.0",
+        "cgdsoftware/menus": "^5.0",
+        "cgdsoftware/permissions": "^5.0",
+        "cgdsoftware/roles": "^5.0"
     },
     "autoload": {
         "psr-4": {
