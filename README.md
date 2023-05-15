@@ -6,9 +6,9 @@
 [![Total Downloads](https://poser.pugx.org/laravel-enso/migrator/downloads)](https://packagist.org/packages/laravel-enso/migrator)
 [![Latest Stable Version](https://poser.pugx.org/laravel-enso/migrator/version)](https://packagist.org/packages/laravel-enso/migrator)
 
-Structure Migrator dependency for [Laravel Enso](https://github.com/laravel-enso/Enso)
+Structure Migrator dependency for [Laravel Liberu](https://github.com/laravel-enso/Liberu)
 
-This package works exclusively within the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
+This package works exclusively within the [Liberu](https://github.com/laravel-enso/Liberu) ecosystem.
 
 For live examples and demos, you may visit [laravel-enso.com](https://www.laravel-enso.com)
 
