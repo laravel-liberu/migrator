@@ -19,7 +19,6 @@
         }
     ],
     "require": {
-        "laravel-liberu/core": "^8.0",
         "laravel-liberu/menus": "^5.0",
         "laravel-liberu/permissions": "^5.0",
         "laravel-liberu/roles": "^5.0"
