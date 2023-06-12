@@ -8,9 +8,9 @@ use LaravelEnso\Migrator\Exceptions\EnsoStructure;
 
 class ParentMenu
 {
-    private Collection $segments;
+    private readonly Collection $segments;
 
-    public function __construct(private string $menu)
+    public function __construct(private readonly string $menu)
     {
         $this->segments = new Collection(explode('.', $menu));
     }

@@ -10,9 +10,9 @@ class Permissions
 {
     private const Attributes = ['name', 'description', 'is_default'];
 
-    private Collection $permissions;
+    private readonly Collection $permissions;
     private Collection $roleIds;
-    private ?int $defaultRoleId;
+    private ?int $defaultRoleId = null;
 
     public function __construct(?array $permissions)
     {

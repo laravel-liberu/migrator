@@ -27,5 +27,8 @@
         "psr-4": {
             "LaravelEnso\\Migrator\\": "src/"
         }
+    },
+    "require-dev": {
+        "rector/rector": "^0.17.0"
     }
 }

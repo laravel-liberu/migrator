@@ -11,7 +11,7 @@ class Menus
 
     public function __construct(
         private ?array $menu,
-        private ?string $parent
+        private readonly ?string $parent
     ) {
     }
 
