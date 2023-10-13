@@ -5,7 +5,7 @@
         "laravel-liberu",
         "structures",
         "migrator",
-        "enso-helper"
+        "liberu-helper"
     ],
     "homepage": "https://github.com/laravel-liberu/migrator",
     "type": "library",

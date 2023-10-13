@@ -71,7 +71,7 @@ class Permissions
 
     private function defaultRoleId(): self
     {
-        $role = Role::whereName(config('enso.config.defaultRole'))->first();
+        $role = Role::whereName(config('liberu.config.defaultRole'))->first();
 
         $this->defaultRoleId = $role?->id;
 
