@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Migrator\Services;
+namespace LaravelLiberu\Migrator\Services;
 
 use Illuminate\Support\Collection;
-use LaravelEnso\Menus\Models\Menu;
-use LaravelEnso\Migrator\Exceptions\EnsoStructure;
+use LaravelLiberu\Menus\Models\Menu;
+use LaravelLiberu\Migrator\Exceptions\EnsoStructure;
 
 class ParentMenu
 {

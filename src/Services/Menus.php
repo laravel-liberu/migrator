@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Migrator\Services;
+namespace LaravelLiberu\Migrator\Services;
 
-use LaravelEnso\Menus\Models\Menu;
-use LaravelEnso\Permissions\Models\Permission;
+use LaravelLiberu\Menus\Models\Menu;
+use LaravelLiberu\Permissions\Models\Permission;
 
 class Menus
 {

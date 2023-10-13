@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Migrator\Services;
+namespace LaravelLiberu\Migrator\Services;
 
 use Illuminate\Support\Collection;
-use LaravelEnso\Migrator\Exceptions\EnsoStructure;
+use LaravelLiberu\Migrator\Exceptions\EnsoStructure;
 
 class Validator
 {

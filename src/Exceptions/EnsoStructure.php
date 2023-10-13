@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Migrator\Exceptions;
+namespace LaravelLiberu\Migrator\Exceptions;
 
 use Illuminate\Support\Collection;
 use InvalidArgumentException;

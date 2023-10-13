@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Migrator\Database;
+namespace LaravelLiberu\Migrator\Database;
 
 use Illuminate\Database\Migrations\Migration as LaravelMigration;
 use Illuminate\Support\Facades\DB;
-use LaravelEnso\Migrator\Services\Menus;
-use LaravelEnso\Migrator\Services\Permissions;
+use LaravelLiberu\Migrator\Services\Menus;
+use LaravelLiberu\Migrator\Services\Permissions;
 
 abstract class Migration extends LaravelMigration
 {

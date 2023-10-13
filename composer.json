@@ -25,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "LaravelEnso\\Migrator\\": "src/"
+            "LaravelLiberu\\Migrator\\": "src/"
         }
     },
     "require-dev": {
