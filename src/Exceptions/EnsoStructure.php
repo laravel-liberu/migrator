@@ -5,7 +5,7 @@ namespace LaravelLiberu\Migrator\Exceptions;
 use Illuminate\Support\Collection;
 use InvalidArgumentException;
 
-class EnsoStructure extends InvalidArgumentException
+class LiberuStructure extends InvalidArgumentException
 {
     public static function invalidElement(string $element)
     {

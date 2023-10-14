@@ -4,7 +4,7 @@ namespace LaravelLiberu\Migrator\Services;
 
 use Illuminate\Support\Collection;
 use LaravelLiberu\Menus\Models\Menu;
-use LaravelLiberu\Migrator\Exceptions\EnsoStructure;
+use LaravelLiberu\Migrator\Exceptions\LiberuStructure;
 
 class ParentMenu
 {
@@ -24,7 +24,7 @@ class ParentMenu
             return $found->id;
         }
 
-        throw EnsoStructure::invalidParentMenu($this->menu);
+        throw LiberuStructure::invalidParentMenu($this->menu);
     }
 
     private function found($menu): bool
